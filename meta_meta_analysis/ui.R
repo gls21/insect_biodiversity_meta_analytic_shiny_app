@@ -87,7 +87,7 @@ ui <- navbarPage(
            
            # link to code
            p(h5(icon("github", lib = "font-awesome", "fa-2x"), # add-in github icon
-                tags$a(href="https://github.com/gls21/CMEE_NHM_Project/tree/master/christina_mma/meta_meta_analysis", "View app source code"))),
+                tags$a(href="https://github.com/gls21/insect_biodiversity_meta_analytic_shiny_app", "View app source code"))),
            
            tags$hr(),
            
