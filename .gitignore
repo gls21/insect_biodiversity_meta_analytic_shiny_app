@@ -1,0 +1,18 @@
+# Ignore temporary files
+*~
+*'~*
+*.tmp
+
+# Ignore gogglesheets authentication token and details folders, and file which made initial googlesheet
+*/.secrets
+.secrets
+*/details_for_googlesheets
+details_for_googlesheets
+*/save_christina_data_to_googlesheet.R
+save_christina_data_to_googlesheet.R
+
+# R - ignore the following:
+*.RData
+*.Rhistory
+
+.Rproj.user
