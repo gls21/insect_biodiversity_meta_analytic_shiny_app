@@ -23,11 +23,13 @@ When new meta-analyses are conducted, the data can be uploaded and included in f
 * Reference tab for more details enabling the user to find the original papers used in the study.   
 
 #### Directories/Scripts
-* data_and_models - contains the agricultural systems definition table
-* global.R - run once when app is launched. Packages, variables, and functions loaded/created here are available to both server.R and ui.R
-* server.R - defines how the Shiny app works (back-end development)
-* rsconnect - contains file with information on the deployed app
-* ui.R - defines the way the Shiny app looks (front-end development)
+* meta_meta_analysis - this is the Shiny app directory
+   * data_and_models - directory containing the agricultural systems definitions file
+   * rsconnect - contains file with information on the deployed app
+   * global.R - run once when app is launched. Packages, variables, and functions loaded/created here are available to both server.R and ui.R
+   * server.R - defines how the Shiny app works (back-end development)
+   * ui.R - defines the way the Shiny app looks (front-end development)
+   * meta_meta_analysis.Rproj - R project file
 
 #### Languages used to build the Shiny app
 * R version 4.2.0
